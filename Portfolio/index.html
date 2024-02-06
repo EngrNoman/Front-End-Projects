@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <title>Noman - Developer Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(8, 8, 49);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 70px;
+            background-color: rgb(7, 7, 32);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style-type: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            display: inline-block;
+            padding: 15px 25px;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            background-color: rgb(8, 8, 49);
+            color: white;
+        }
+
+        main hr {
+            border: 0;
+            background-color: rgb(42 42 116);
+            height: 1.2px;
+            margin: 40px 84px;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            margin: 23px 0;
+            align-items: center;
+        }
+
+        .firstsection>div {
+            width: 30%;
+        }
+
+        .leftsection {
+            font-size: 2rem;
+            margin: 40px 0;
+
+        }
+
+        .blue {
+            color: rgb(110, 79, 139);
+        }
+
+        .text-gray {
+            color: gray;
+        }
+
+        #element {
+            color: rgb(110, 79, 139);
+        }
+
+        .leftsection .button{
+            margin: 20px 0;
+        }
+        .leftsection .btn {
+            padding: 10px;
+            background-color: #1f1f5a;
+            color: white;
+            border: 1px solid;
+            border-radius: 6px;
+            font-size: 15px;
+        }
+        .leftsection .btn:hover{
+            background-color: rgb(177, 158, 194);
+        } 
+
+        .secondsection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .secondsection h1 {
+            font-size: 1.9rem;
+        }
+
+        .secondsection .box {
+            background-color: white;
+            width: 73vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+
+        .secondsection .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 122px;
+        }
+
+        .img-top {
+            width: 40px;
+            position: relative;
+            top: -42px;
+            left: -18px;
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 40px;
+            width: 160px;
+
+        }
+
+        .vertical-disc {
+            position: relative;
+            top: 50px;
+            width: 180px;
+            font-size: 0.6rem;
+            color: gray;
+        }
+
+        .vertical-js-img {
+            width: 80px;
+            position: relative;
+            top: -50px;
+            left: -39px;
+
+        }
+
+        .vertical-js-title {
+            position: relative;
+            top: 31px;
+            width: 110px;
+        }
+
+        .vertical-js-disc {
+            position: relative;
+            top: 40px;
+            width: 180px;
+            font-size: 0.6rem;
+            color: gray;
+
+        }
+
+        footer {
+            background-color: rgb(31 31 76);
+
+        }
+
+        .footer {
+            display: flex;
+            padding: 30px 100px;
+
+        }
+
+        .firstfooter ul {
+            list-style-type: none;
+            display: flex;
+        }
+
+        .firstfooter ul li a {
+            text-decoration: none;
+            display: inline-block;
+            padding: 25px;
+            color: white;
+        }
+
+        .firstfooter ul li a:hover {
+            color: rgb(43, 43, 68);
+        }
+
+        footer .footer-contant {
+            color: gray;
+            text-align: center;
+            padding: 12px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Noman's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Contact Me</a> </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                <div> Hi, My name is</div>
+                <span class="blue">Noman Mahmood</span>
+                <div>and i am a </div>
+                <span id="element"></span>
+                <div class="button">
+                    <button class="btn">Download Rusume</button>
+                    <button class="btn">Vsit Github</button>
+
+                </div>
+
+            </div>
+            <div class="rightsection">
+                <img src="profile.png" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="secondsection">
+            <span class="text-gray">What I have done so far </span>
+            <h1>Work Exprience</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img src="html5.png" alt="" class="img-top">
+                    <div class="vertical-title">
+                        HTML developer (2021-2022)</div>
+                    <div class="vertical-disc">
+                        Translated necessary requirements into HTML code.
+                        Administered operational role in maintaining technical content.
+                        Worked as member of project team to collect and develop content.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img src="css.png" alt="" class="img-top">
+                    <div class="vertical-title">
+                        CSS developer (2021-2022)</div>
+                    <div class="vertical-disc">
+                        CSS literally means cascading style sheets and it represents a programming language designed to
+                        offer stylistic syntax to build websites and web applications. When you talk about CSS, you must
+                        also talk about HTML. HTML is the coding language used to build many web documents, websites,
+                        and web applications.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img src="js.png" alt="" class="vertical-js-img">
+                    <div class="vertical-js-title">
+                        JS developer (2021-2022)</div>
+                    <div class="vertical-js-disc">
+                        Participate in the design of the web application..
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img src="frontend.jpg" alt="" class="img-top">
+                    <div class="vertical-title">
+                        Front End developer (2023)</div>
+                    <div class="vertical-disc">
+                        Have a degree in Computer Science or similar field.
+                        Be proficient in coding languages such as HTML, CSS, JavaScript, and jQuery.
+                        Understand server-side CSS.
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="firstfooter">
+                Contact ME
+                <ul>
+                    <li><a href="#">Linkdin</a></li>
+                    <li><a href="#">FaceBook</a></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">Youtube</a></li>
+
+                </ul>
+            </div>
+        </div>
+        <div class="footer-contant">
+            CopyRights &#169; Nomansportfolio | All Rights Reserved
+        </div>
+
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer.', 'Video Editor.'],
+            typeSpeed: 50,
+        });
+    </script>
+
+</body>
+
+</html>
